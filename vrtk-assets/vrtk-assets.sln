@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRTK.Tilia.Package.Importer.Editor", "VRTK.Tilia.Package.Importer.Editor.csproj", "{b9900c7d-5c05-0501-4d81-581eaf931f8d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConeMeshAssembly", "ConeMeshAssembly.csproj", "{c37b1305-d10a-825b-4bbb-ebb9501b3bb7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{5a11753d-8208-0150-d504-19b6a98fa1dc}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConeMeshEditorAssembly", "ConeMeshEditorAssembly.csproj", "{2bf39038-061f-9c08-3950-cebbd1f5b79f}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{b9900c7d-5c05-0501-4d81-581eaf931f8d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b9900c7d-5c05-0501-4d81-581eaf931f8d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c37b1305-d10a-825b-4bbb-ebb9501b3bb7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c37b1305-d10a-825b-4bbb-ebb9501b3bb7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5a11753d-8208-0150-d504-19b6a98fa1dc}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5a11753d-8208-0150-d504-19b6a98fa1dc}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2bf39038-061f-9c08-3950-cebbd1f5b79f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2bf39038-061f-9c08-3950-cebbd1f5b79f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
