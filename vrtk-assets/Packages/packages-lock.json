@@ -60,15 +60,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.inputsystem": {
-      "version": "1.6.1",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.uielements": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.performance.profile-analyzer": {
       "version": "1.2.2",
       "depth": 1,
@@ -144,15 +135,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.xr.core-utils": {
-      "version": "2.2.1",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.xr": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.xr.legacyinputhelpers": {
       "version": "2.1.10",
       "depth": 1,
@@ -175,15 +157,12 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.xr.openxr": {
-      "version": "1.8.2",
+    "com.unity.xr.oculus": {
+      "version": "4.0.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.xr.management": "4.0.1",
-        "com.unity.xr.legacyinputhelpers": "2.1.2",
-        "com.unity.inputsystem": "1.4.4",
-        "com.unity.xr.core-utils": "2.1.1"
+        "com.unity.xr.management": "4.2.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -204,6 +183,42 @@
         "io.extendreality.zinnia.unity": "2.15.0",
         "com.unity.xr.management": "4.0.1"
       },
+      "url": "https://registry.npmjs.org"
+    },
+    "io.extendreality.tilia.indicators.objectpointers.unity": {
+      "version": "2.2.10",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.15.0",
+        "io.extendreality.tilia.utilities.shaders.unity": "1.4.0",
+        "io.extendreality.tilia.mutators.objectfollower.unity": "2.0.19"
+      },
+      "url": "https://registry.npmjs.org"
+    },
+    "io.extendreality.tilia.mutators.objectfollower.unity": {
+      "version": "2.0.19",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.15.0"
+      },
+      "url": "https://registry.npmjs.org"
+    },
+    "io.extendreality.tilia.sdk.oculusintegration.unity": {
+      "version": "2.3.7",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.15.0"
+      },
+      "url": "https://registry.npmjs.org"
+    },
+    "io.extendreality.tilia.utilities.shaders.unity": {
+      "version": "1.4.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://registry.npmjs.org"
     },
     "io.extendreality.zinnia.unity": {
